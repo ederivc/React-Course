@@ -1,4 +1,55 @@
-.container {
-  border: 1px solid red;
-  padding: 1rem;
+.cardContainer {
+  margin-top: 0.5rem;
+  background-color: #3c3e44;
+  height: 10rem;
+  width: 25rem;
+  border-radius: 0.5rem;
+  display: flex;
+}
+
+.cardContainer img {
+  height: 10rem;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.characterInfo {
+  flex: 1;
+  padding: 0.5rem;
+  padding-left: 1.2rem;
+  font-size: 0.8rem;
+  color: #ffff;
+  box-sizing: border-box;
+}
+
+.characterName {
+  font-size: 1.1rem;
+}
+
+.characterSpecs {
+  margin-top: 0.2rem;
+}
+
+.characterSpecs span:nth-child(2) {
+  margin: 0.5rem;
+}
+
+.characterLocation,
+.characterFooter {
+  margin-top: 0.8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.characterLocation p,
+.characterFooter p {
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.characterLocation p:nth-child(1),
+.characterFooter p:nth-child(1) {
+  font-size: 0.6rem;
+  color: #757578;
+  margin-bottom: 0.2rem;
 }
